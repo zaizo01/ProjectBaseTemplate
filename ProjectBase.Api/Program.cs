@@ -1,8 +1,6 @@
 using ProjectBase.Infraestructure.Extension;
 
 var builder = WebApplication.CreateBuilder(args);
-var ConnectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-
 // Add services to the container.
 
 builder.Services.AddControllers();

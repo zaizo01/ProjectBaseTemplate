@@ -1,0 +1,12 @@
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Domain\bin\Debug\net6.0\ProjectBase.Domain.deps.json
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Domain\bin\Debug\net6.0\ProjectBase.Domain.dll
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Domain\bin\Debug\net6.0\ProjectBase.Domain.pdb
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Domain\obj\Debug\net6.0\ProjectBase.Domain.csproj.AssemblyReference.cache
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Domain\obj\Debug\net6.0\ProjectBase.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Domain\obj\Debug\net6.0\ProjectBase.Domain.AssemblyInfoInputs.cache
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Domain\obj\Debug\net6.0\ProjectBase.Domain.AssemblyInfo.cs
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Domain\obj\Debug\net6.0\ProjectBase.Domain.csproj.CoreCompileInputs.cache
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Domain\obj\Debug\net6.0\ProjectBase.Domain.dll
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Domain\obj\Debug\net6.0\refint\ProjectBase.Domain.dll
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Domain\obj\Debug\net6.0\ProjectBase.Domain.pdb
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Domain\obj\Debug\net6.0\ref\ProjectBase.Domain.dll

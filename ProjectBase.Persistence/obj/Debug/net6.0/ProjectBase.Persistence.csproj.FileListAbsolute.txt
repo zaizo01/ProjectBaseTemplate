@@ -1,0 +1,17 @@
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Persistence\bin\Debug\net6.0\ProjectBase.Persistence.deps.json
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Persistence\bin\Debug\net6.0\ProjectBase.Persistence.runtimeconfig.json
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Persistence\bin\Debug\net6.0\ProjectBase.Persistence.dll
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Persistence\bin\Debug\net6.0\ProjectBase.Persistence.pdb
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Persistence\bin\Debug\net6.0\ProjectBase.Domain.dll
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Persistence\bin\Debug\net6.0\ProjectBase.Domain.pdb
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Persistence\obj\Debug\net6.0\ProjectBase.Persistence.csproj.AssemblyReference.cache
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Persistence\obj\Debug\net6.0\ProjectBase.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Persistence\obj\Debug\net6.0\ProjectBase.Persistence.AssemblyInfoInputs.cache
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Persistence\obj\Debug\net6.0\ProjectBase.Persistence.AssemblyInfo.cs
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Persistence\obj\Debug\net6.0\ProjectBase.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Persistence\obj\Debug\net6.0\ProjectBase.Persistence.csproj.CopyComplete
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Persistence\obj\Debug\net6.0\ProjectBase.Persistence.dll
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Persistence\obj\Debug\net6.0\refint\ProjectBase.Persistence.dll
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Persistence\obj\Debug\net6.0\ProjectBase.Persistence.pdb
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Persistence\obj\Debug\net6.0\ProjectBase.Persistence.genruntimeconfig.cache
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Persistence\obj\Debug\net6.0\ref\ProjectBase.Persistence.dll

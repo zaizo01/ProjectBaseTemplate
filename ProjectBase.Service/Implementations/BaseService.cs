@@ -66,7 +66,7 @@ namespace ProjectBase.Service.Implementations
         {
             try
             {
-                var record = await context.Set<T>().SingleOrDefault(id);
+                var record = await context.Set<T>().FindAsync(id);
                 if (record is null) throw new Exception("Record does not exist.");
                 return new Response<T>(record, "Record requested successfully.");
             }

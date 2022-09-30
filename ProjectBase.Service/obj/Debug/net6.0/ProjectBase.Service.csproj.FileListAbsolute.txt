@@ -1,0 +1,17 @@
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Service\obj\Debug\net6.0\ProjectBase.Service.csproj.AssemblyReference.cache
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Service\obj\Debug\net6.0\ProjectBase.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Service\obj\Debug\net6.0\ProjectBase.Service.AssemblyInfoInputs.cache
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Service\obj\Debug\net6.0\ProjectBase.Service.AssemblyInfo.cs
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Service\obj\Debug\net6.0\ProjectBase.Service.csproj.CoreCompileInputs.cache
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Service\bin\Debug\net6.0\ProjectBase.Service.deps.json
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Service\bin\Debug\net6.0\ProjectBase.Service.dll
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Service\bin\Debug\net6.0\ProjectBase.Service.pdb
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Service\bin\Debug\net6.0\ProjectBase.Domain.dll
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Service\bin\Debug\net6.0\ProjectBase.Persistence.dll
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Service\bin\Debug\net6.0\ProjectBase.Persistence.pdb
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Service\bin\Debug\net6.0\ProjectBase.Domain.pdb
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Service\obj\Debug\net6.0\ProjectBase.Service.csproj.CopyComplete
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Service\obj\Debug\net6.0\ProjectBase.Service.dll
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Service\obj\Debug\net6.0\refint\ProjectBase.Service.dll
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Service\obj\Debug\net6.0\ProjectBase.Service.pdb
+C:\Users\zaiz\Desktop\node js\ProjectBase\ProjectBase.Service\obj\Debug\net6.0\ref\ProjectBase.Service.dll
