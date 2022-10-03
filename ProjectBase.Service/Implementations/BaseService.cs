@@ -76,25 +76,6 @@ namespace ProjectBase.Service.Implementations
             }
         }
 
-        public async Task<Response<T>> SoftDelete(Guid id)
-        {
-            try
-            {
-                var entity = await GetById(id);
-                entity.Message = "Record soft deleted successfully.";
-                if (entity == null) throw new Exception("The entity is null");
-                var isActiveProp = entity.GetType().GetProperty("IsActive");
-                var isActivePropWithRightType = Convert.ChangeType(false, isActiveProp.PropertyType);
-                isActiveProp.SetValue(entity, isActivePropWithRightType);
-                await context.SaveChangesAsync();
-                return entity;
-            }
-            catch (Exception ex)
-            {
-                throw new Exception(ex.Message);
-            }
-        }
-
         public async Task<Response<T>> Update(T entity)
         {
             try
@@ -109,14 +90,34 @@ namespace ProjectBase.Service.Implementations
             }
         }
 
-        //public void Save()
-        //{
-        //    throw new NotImplementedException();
-        //}
+        public async Task<Response<T>> SoftDelete(Guid id)
+        {
+            try
+            {
+                var record = await context.Set<T>().FindAsync(id);
+                if (record is null) throw new Exception("Record does not exist.");
+                var property = record.GetType().GetProperty("IsActive");
+                property.SetValue(record, false);
+                context.Entry(record).State = EntityState.Modified;
+                await context.SaveChangesAsync();
+                return new Response<T>(record, "Record soft deleted successfully.");
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
 
-        //public async Task<int> SaveChangesAsync()
-        //{
-        //    throw new NotImplementedException();
-        //}
+        public void Save()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<int> SaveChangesAsync()
+        {
+            throw new NotImplementedException();
+        }
+
+        
     }
 }

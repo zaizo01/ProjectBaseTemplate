@@ -14,6 +14,5 @@ namespace ProjectBase.Domain.Common
         public string LastModifiedBy { get; set; }
         public DateTime? LastModifiedDate { get; set; }
         public bool IsActive { get; set; }
-        public string Commentary { get; set; }
     }
 }

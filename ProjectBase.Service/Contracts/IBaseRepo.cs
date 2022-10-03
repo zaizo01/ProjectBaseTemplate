@@ -15,8 +15,8 @@ namespace ProjectBase.Service.Contracts
         Task<Response<T>> Update(T entity);
         Task<Response<T>> Delete(Guid id);
         Task<Response<T>> SoftDelete(Guid id);
-        //void Save();
+        void Save();
 
-        //Task<int> SaveChangesAsync();
+        Task<int> SaveChangesAsync();
     }
 }

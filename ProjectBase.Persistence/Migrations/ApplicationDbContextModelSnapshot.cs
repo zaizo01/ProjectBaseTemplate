@@ -22,14 +22,11 @@ namespace ProjectBase.Persistence.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("ProjectBase.Domain.Entities.User", b =>
+            modelBuilder.Entity("ProjectBase.Domain.Common.BaseEntity", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("Commentary")
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("CreatedBy")
                         .HasColumnType("nvarchar(max)");
@@ -37,11 +34,14 @@ namespace ProjectBase.Persistence.Migrations
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("Email")
+                    b.Property<string>("Discriminator")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsActive")
-                        .HasColumnType("bit");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(true);
 
                     b.Property<string>("LastModifiedBy")
                         .HasColumnType("nvarchar(max)");
@@ -49,12 +49,24 @@ namespace ProjectBase.Persistence.Migrations
                     b.Property<DateTime?>("LastModifiedDate")
                         .HasColumnType("datetime2");
 
+                    b.HasKey("Id");
+
+                    b.ToTable("BaseEntity");
+
+                    b.HasDiscriminator<string>("Discriminator").HasValue("BaseEntity");
+                });
+
+            modelBuilder.Entity("ProjectBase.Domain.Entities.User", b =>
+                {
+                    b.HasBaseType("ProjectBase.Domain.Common.BaseEntity");
+
+                    b.Property<string>("Email")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Password")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Id");
-
-                    b.ToTable("Users");
+                    b.HasDiscriminator().HasValue("User");
                 });
 #pragma warning restore 612, 618
         }
